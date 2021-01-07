@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/optionShowSymbolCount"
+        android:icon="@drawable/ic_right_arrow"
+        android:title="Show text symbol count" />
+    <item
+        android:id="@+id/optionDisplaySymbolsPerSecond"
+        android:icon="@drawable/ic_right_arrow"
+        android:title="Show text 1 symbol per second" />
+</menu>
