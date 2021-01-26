@@ -19,36 +19,6 @@ public class MainActivity extends AppCompatActivity {
         textOutputField = (TextView) findViewById(R.id.tekstas);
     }
 
-    protected  void onStart() {
-        super.onStart();
-        Log.i("MainActivity", "onStart");
-    }
-
-    protected  void onPause() {
-        super.onPause();
-        Log.i("MainActivity", "onPause");
-    }
-
-    protected  void onResume() {
-        super.onResume();
-        Log.i("MainActivity", "onResume");
-    }
-
-    protected  void onRestart() {
-        super.onRestart();
-        Log.i("MainActivity", "onRestart");
-    }
-
-    protected  void onStop() {
-        super.onStop();
-        Log.i("MainActivity", "onStop");
-    }
-
-    protected  void onDestroy() {
-        super.onDestroy();
-        Log.i("MainActivity", "onDestroy");
-    }
-
     public void onIputTextBtnClick(View w) {
         Intent i = new Intent(getApplicationContext(), TextInputActivity.class);
         startActivityForResult(i, TEXT_INPUT_REQUEST_CODE);
